@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+body {
+    max-width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.logo-wrapper {
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    position: absolute;
+    left: 400px;
+    bottom: 70px;
+    font-weight: 600;
+}
+
+.present-menu {
+    display: inline-block;
+    width: 778px;
+    padding: 38px 0;
+    position: relative;
+}
+
+.present-menu__text {
+    position: absolute;
+    bottom: 136px;
+    left: 109px;
+
+    color: white;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.present-menu__text:last-of-type {
+    position: absolute;
+    bottom: 93px;
+    left: 109px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.present-menu__photo {
+    width: 737px;
+    height: 825px;
+    border-radius: 35px;
+    float: inline-end;
+}
+
+.present-menu__photo-dimmer {
+    position: absolute;
+    width: 737px;
+    height: 825px;
+    border-radius: 35px;
+    background: linear-gradient(180.00deg, rgba(151, 118, 68, 0.35),rgba(0, 0, 0, 0.35) 100%);
+    margin-left: 41px;
+}
+
+.user-menu {
+    display: inline-block;
+    vertical-align: top;
+    margin: 41px 0 0 0;
+    padding: 145px 90px 0 90px;
+}
+
+.user-menu-reg {
+    padding: 100px 90px 0 90px;
+}
+
+.home-menu {
+    width: 329px;
+    height: 107px;
+    margin: 0 auto 52px auto;
+}
+
+.home-menu__header {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.home-menu__switch-mode {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 330px;
+    height: 60px;
+    background: #f8eddd;
+    border-radius: 30px;
+}
+
+.home-menu__switch-mode button {
+    width: 145px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+}
+
+.home-menu__login {
+    background: #9e896a;
+    color: white;
+}
+
+.home-menu__login-deactive {
+    background: inherit;
+    color: #a18c6e;
+}
+
+.home-menu__register {
+    background: inherit;
+    color: #a18c6e;
+}
+
+.home-menu__register-active {
+    background: #9e896a;
+    color: white;
+}
+
+.input-menu,
+.input-menu-register {
+    width: 454px;
+}
+
+.input-menu-login-deactive {
+    display: none;
+}
+
+.input-menu-register {
+    display: none;
+}
+
+.input-menu-register-active {
+    display: block;
+}
+
+.input-menu__uppertext {
+    margin-bottom: 42px;
+}
+
+.input-menu__field-name {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.input-menu__field {
+    width: 435px;
+    height: 55px;
+    margin-bottom: 22px;
+    padding-left: 31px;
+    border-radius: 30px;
+    border: 2px solid #b6a68f;
+    outline: none;
+}
+
+.input-menu__field::placeholder {
+    opacity: 0.5;
+}
+
+.input-menu__field:first-of-type {
+    margin-bottom: 30px;
+}
+
+.input-menu__password-field-wrapper {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+
+.input-menu__visibility-icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    opacity: 0.5;
+}
+
+.input-menu__visibility-icon:hover {
+    cursor: pointer;
+}
+
+.input-menu__options-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 435px;
+}
+
+.input-menu__options-wrapper-deactive {
+    display: none;
+}
+
+.input-menu__remember-mark {
+    margin-right: 5px;
+}
+
+.input-menu__forgot-password-link {
+    text-decoration: none;
+    color: black;
+}
+
+.input-menu__submit-wrapper {
+    width: 435px;
+    height: 49px;
+}
+
+.input-menu__submit {
+    width: 232px;
+    height: 49px;
+    margin-top: 55px;
+    float: inline-end;
+    border-radius: 36px;
+    border: none;
+    background: #9e896a;
+    color: white;
+}
+
+.input-menu__submit:hover {
+    cursor: pointer;
+}
+
